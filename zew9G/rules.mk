@@ -1,7 +1,13 @@
+# Enable VIA protocol
+VIA_ENABLE = yes
+
+# Space/compatibility niceties
+LTO_ENABLE = no
 CONSOLE_ENABLE = no
 COMMAND_ENABLE = no
-MOUSEKEY_ENABLE = no
-ORYX_ENABLE = yes
-RGB_MATRIX_CUSTOM_KB = yes
-TAP_DANCE_ENABLE = yes
-SPACE_CADET_ENABLE = no
+
+# Useful features VIA expects
+EXTRAKEY_ENABLE = yes
+MOUSEKEY_ENABLE = yes
+NKRO_ENABLE = yes
+
